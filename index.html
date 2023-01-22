@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/style.css">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- <h1>Calculator</h1> -->
+
+        <div class="calbox">
+
+            <div>
+                <input type="text" id="screen">
+            </div>
+            <div class="buttonBox">
+
+                <div id="row">
+                    <button value="7" onclick="clk(this.value)">7</button>
+                    <button value="8" onclick="clk(this.value)">8</button>
+                    <button value="9" onclick="clk(this.value)">9</button>
+                    <button value="*" onclick="clk(this.value)">*</button>
+                </div>
+                <div id="row">
+                    <button value="4" onclick="clk(this.value)">4</button>
+                    <button value="5" onclick="clk(this.value)">5</button>
+                    <button value="6" onclick="clk(this.value)">6</button>
+                    <button value="-" onclick="clk(this.value)">-</button>
+                </div>
+                <div id="row">
+                    <button value="1" onclick="clk(this.value)">1</button>
+                    <button value="2" onclick="clk(this.value)">2</button>
+                    <button value="3" onclick="clk(this.value)">3</button>
+                    <button value="+" onclick="clk(this.value)">+</button>
+                </div>
+                <div id="row">
+                    <button value="0" onclick="clk(this.value)">0</button>
+                    <button value="." onclick="clk(this.value)">.</button>
+                    <button value="=" onclick="eql(this.value)">=</button>
+                    <button value="C" onclick="clrdisp(this.value)">C</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/jav_script.js"></script>
+</body>
+
+</html>
